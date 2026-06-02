@@ -36,7 +36,7 @@ A curated collection of AI-ready prompt templates for writing each section of a 
 每个技能均为一个独立的提示词文件（位于 `skills/` 目录下）。使用时，只需将对应文件的内容复制到对话中，再附上你的草稿或关键信息，即可获得高质量的输出。
 
 **典型流程：**
-1. 打开你需要的技能文件（如 `abstract-writing.md`）。
+1. 打开你需要的技能文件（如 `abstract.md`）。
 2. 将全文复制到支持长上下文的大语言模型（如 Claude、GPT-4）中。
 3. 在提示词的末尾 `# Input` 部分粘贴你的中文草稿或要点。
 4. 等待模型生成，即可得到可直接粘贴进 LaTeX 源文件的英文段落及中文直译核对版本。
